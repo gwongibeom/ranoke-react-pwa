@@ -1,0 +1,29 @@
+* {
+  text-align: center;
+}
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 7dvh;
+}
+
+.HeadText {
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.SubHeadText {
+  margin: 0.2rem;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.HeadTextBtn {
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
