@@ -1,0 +1,16 @@
+.DiaryList {
+  display: flex;
+  flex-direction: column;
+}
+.diarysLengthText {
+  margin-bottom: 3dvh;
+}
+
+.noDiarysText {
+  text-align: center;
+  margin-top: 24dvh;
+}
+
+.itemWrap {
+  overflow: scroll;
+}

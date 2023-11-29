@@ -1,0 +1,39 @@
+.DiaryItem {
+  margin-bottom: 5dvh;
+}
+hr {
+  margin-top: 1.2dvh;
+  margin-bottom: 1.2dvh;
+}
+
+.logo {
+  aspect-ratio: 1 / 1;
+  width: 8dvh;
+  background-color: #fff;
+  border-radius: 100dvh;
+  padding: 1dvh;
+}
+
+.circle {
+  width: 1.2dvh;
+  height: 1.2dvh;
+  border-radius: 100dvh;
+  background-color: #fff;
+  margin-top: 1.2dvh;
+}
+
+.logoWrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.2dvh;
+  margin-bottom: 1.2dvh;
+}
+
+.report {
+  background-color: #fff;
+  color: #191919;
+  padding: 3dvh;
+  border-radius: 1dvh;
+}

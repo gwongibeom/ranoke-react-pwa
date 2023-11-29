@@ -1,7 +1,7 @@
 .App {
   width: 100dvw;
   max-width: 820px;
-  height: 100dvh;
+  min-height: 100dvh;
   background-color: #171717;
   padding: 1.4rem;
   color: rgba(255, 255, 255, 0.94);
@@ -31,6 +31,8 @@
   border-radius: 0.8dvh;
   outline: none;
   text-align: left;
+
+  font-size: 1rem;
 }
 .diaryCreateBtn {
   width: 100%;
