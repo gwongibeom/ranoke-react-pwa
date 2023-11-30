@@ -16,9 +16,12 @@ function App() {
 
   const GetDairyReport = async (text) => {
     try {
-      const res = await axios.post('http://127.0.0.1:5000/api/text', {
-        text: text,
-      })
+      const res = await axios.post(
+        'https://k201gun.pythonanywhere.com/api/text',
+        {
+          text: text,
+        }
+      )
 
       return res.data.result
     } catch (err) {
