@@ -43,3 +43,9 @@
   letter-spacing: -0.45px;
   font-size: 1rem;
 }
+
+.footerText {
+  margin-top: 1dvh;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}

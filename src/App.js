@@ -134,6 +134,7 @@ function App() {
           <DiaryList diarys={diarys} />
         </div>
       )}
+      <p className='footerText'>Made by gwon. pls install pwa</p>
     </div>
   )
 }
